@@ -1,0 +1,15 @@
+<LinearLayout android:id="@+id/section"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.delit.androidstudioviewbindingbug.other.ui.Section"
+    android:orientation="horizontal">
+
+    <include layout="@layout/fields"
+        android:id="@+id/fields"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
